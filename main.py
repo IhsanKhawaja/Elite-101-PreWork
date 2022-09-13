@@ -5,7 +5,7 @@ exit = False #To manage when the user is done
 responses = ["How interesting.","That's cool!","Nice!","Neat!","cool!"] #To respond to the user making statements
 y_or_n = ["yes","no"] #To respond to asking questions
 
-print("Hey, i'm chatbot!\nWhen your ready to leave type exit.")
+print("Hey, i'm chatbot!\nYou can tell me anything and you can ask me anything as long as your question starts with do you, are you, and can you.\nWhen your ready to leave type exit.")
 
 while exit is False:
   response = str.lower(input())
