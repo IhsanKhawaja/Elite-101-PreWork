@@ -2,7 +2,7 @@ import random
 
 exit = False #To manage when the user is done
 
-responses = ["How interesting.","That's cool!","Nice!","Neat!"] #To respond to the user making statements
+responses = ["How interesting.","That's cool!","Nice!","Neat!","cool!"] #To respond to the user making statements
 y_or_n = ["yes","no"] #To respond to asking questions
 
 print("Hey, i'm chatbot!\nWhen your ready to leave type exit.")
@@ -13,7 +13,7 @@ while exit is False:
   check_question = []
   index = 0
   
-  if len(response) >= 6:
+  if len(response) >= 7:
     while index < 7:
       check_question.append("".join(response[index]))
       index += 1
