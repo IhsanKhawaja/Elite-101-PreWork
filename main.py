@@ -45,7 +45,7 @@ input("Favorite hobby?\n")
 input("Last question before i'm done, where were you born?\n")
 input("Cool! ok final question, Whats the real world like? I wouldn't know, I was born in repl.it.\n")
 
-print("Cool!\nAnyways, i've finished asking my questions. Now you can tell me anything and you can ask me anything as long as your question starts with do you, are you, and can you.\nWhen your ready to leave type exit or type quit.")
+print("Cool!\nAnyways, i've finished asking my questions. Now you can tell me anything and you can ask me anything as long as your question starts with do you, are you, will you,and can you.\nWhen your ready to leave type exit or type quit.")
 
 while exit is False:
   response = str.lower(input())
@@ -60,7 +60,7 @@ while exit is False:
     check2 = "".join(check_question)
   if response == "exit" or response == "quit":
     exit = True
-  elif check2 == "do you " or check2 == "can you" or check2 == "are you":
+  elif check2 == "do you " or check2 == "can you" or check2 == "are you" or check2 == "will yo":
     print(y_or_n[random.randint(0,1)])
   else:
     print(responses[random.randint(0,3)])
